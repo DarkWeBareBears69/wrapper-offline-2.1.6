@@ -80,7 +80,7 @@ Most of this project is free/libre software under the MIT license. You have the 
 FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some differences from MIT. Flash Player (`resources/extensions`) and GoAnimate's original assets (`resources/static`) are proprietary and do not grant you these rights, but if they did, this project wouldn't need to exist
 
 ### To-Do
-- [ ] Bringing The Mosaic Props Back
+- [x] Bringing The Mosaic Props Back
 
 ### Credits
 | Contributor | Contribution |
