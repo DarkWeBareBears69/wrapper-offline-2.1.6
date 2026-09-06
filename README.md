@@ -92,7 +92,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 | Octanuary | The main developer. Rewriting the source code in Vue and TypeScript |
 | VisualPlugin | The developer of the GoAnimate Wrapper |
 | [Vyond](https://www.vyond.com) | The creators of GoAnimate |
-| [Whispery](https://www.youtube.com/channel/UCVgwK9guSmcb3GkYLBzAbgA) | Fixing issues with Windows 11 and MacOS |
+| [Whispery](https://www.youtube.com/channel/UCVgwK9guSmcb3GkYLBzAbgA) | Fixing issues with Windows 11 and macOS |
 
 
 [Whispery's Discord page](https://discord.com/users/1440498123997843607)
