@@ -47,7 +47,7 @@ To install Wrapper: Offline, you need to download it through the [releases page]
 
 ### Updates And Support
 For support, the first thing you should do is to [read through the Wrapper: Offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki), as it most likely has what you want to know    
-Alternatively, if you can't find what you need, you can join the [Discord server](https://discord.gg/Kf7BzSw)
+Alternatively, if you can't find what you need, you can join the [Discord server](https://discord.gg/Kf7BzSw).
 Joining the server is recommended, as there is a whole community that can help you out
 
 ### Building And Testing
