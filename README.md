@@ -46,9 +46,9 @@ This is an unofficial fork of GTAManRCRX's "2.1.4" release (itself a fork of the
 To install Wrapper: Offline, you need to download it through the [releases page](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/releases/)
 
 ### Updates And Support
-For support, the first thing you should do is to [read through the Wrapper: Offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki), as it most likely has what you want to know    
+For support, the first thing you should do is to [read through the Wrapper: Offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki), as it most likely has what you want to know.    
 Alternatively, if you can't find what you need, you can join the [Discord server](https://discord.gg/Kf7BzSw).
-Joining the server is recommended, as there is a whole community that can help you out
+Joining the server is recommended, as there is a whole community that can help you out.
 
 ### Building And Testing
 To run Wrapper: Offline with a development server, first run this command
