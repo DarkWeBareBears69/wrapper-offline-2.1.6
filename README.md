@@ -81,6 +81,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 
 ### To-Do
 - [x] Restore the "Mosaic" props that GTAManRCRX removed
+- [ ] Add the GitHub Workflow action script
 
 ### Credits
 | Contributor | Contribution |
