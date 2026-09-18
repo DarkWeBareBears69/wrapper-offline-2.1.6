@@ -85,6 +85,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
   - [ ] Create the Windows 32-bit (x86) build of the version
   - [ ] Create the Mac build of the version
   - [ ] Create the Linux build of the version
+- [ ] Backport the VoiceForge login feature from 2.2.0 back to 2.1.6
 
 ### Credits
 | Contributor | Contribution |
