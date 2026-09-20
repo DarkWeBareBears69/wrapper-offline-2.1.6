@@ -104,4 +104,4 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 
 No members of the original GoAnimate wrapper team are officially working on Wrapper: Offline, even if they have contributed. Some members of the original team have asked not to be given credit, and they have been removed.
 
-Credit also goes to GTAManRCRX (the creator of the "2.1.4" fork), and DarkWeBareBears69 (the creator of this fork).
+Credit also goes to GTAManRCRX (the creator of the "2.1.4" fork), Daniel49332 (the creator of the "2.1.5" fork), and DarkWeBareBears69 (the creator of this fork).
