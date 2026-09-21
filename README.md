@@ -91,10 +91,9 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 | Contributor | Contribution |
 | --------- | ------- |
 | Benson | The original developer of Wrapper: Offline |
-| GTAManRCRX | the creator of the "2.1.4" fork |
-| Daniel49332 | the creator of the "2.1.5" fork |
+| GTAManRCR | the creator of the "2.1.4" fork |
+| DanielBitten | Upgraded TTS endpoints and voices, the creator of the "2.1.5" fork |
 | DarkWeBareBears69 | the creator of this fork |
-| DanielBitten | Upgraded TTS endpoints and voices |
 | It'sJay | Saving every asset |
 | MegaT | Eradicating the time bomb issue |
 | Octanuary | The main developer. Rewriting the source code in Vue and TypeScript |
