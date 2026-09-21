@@ -10,7 +10,7 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 
 ## Changes
 ### Changes made since "2.1.4"
- - Restore the "Mosaic" props that were controversially removed by GTAMaxRCRX (commit [3110e61](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/3110e615c59c82db682615b7869d8a3f4d284b30)).
+ - Restore the "Mosaic" props that were controversially removed by GTAMaxRCR (commit [3110e61](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/3110e615c59c82db682615b7869d8a3f4d284b30)).
  - Add missing stock characters (commit [40acf38](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/40acf38c8ec87984b261527e48c7c707bb113e24))
  - Revert changes to capitalization made by GTAManRCR.
  - Add TheUnknownKoala4545 stock character in the W:O credits
