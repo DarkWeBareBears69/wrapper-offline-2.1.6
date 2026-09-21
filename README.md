@@ -91,6 +91,9 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 | Contributor | Contribution |
 | --------- | ------- |
 | Benson | The original developer of Wrapper: Offline |
+| GTAManRCRX | the creator of the "2.1.4" fork |
+| Daniel49332 | the creator of the "2.1.5" fork |
+| DarkWeBareBears69 | the creator of this fork |
 | DanielBitten | Upgraded TTS endpoints and voices |
 | It'sJay | Saving every asset |
 | MegaT | Eradicating the time bomb issue |
@@ -103,5 +106,3 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 [Whispery's Discord page](https://discord.com/users/1440498123997843607)
 
 No members of the original GoAnimate wrapper team are officially working on Wrapper: Offline, even if they have contributed. Some members of the original team have asked not to be given credit, and they have been removed.
-
-Credit also goes to GTAManRCRX (the creator of the "2.1.4" fork), Daniel49332 (the creator of the "2.1.5" fork), and DarkWeBareBears69 (the creator of this fork).
