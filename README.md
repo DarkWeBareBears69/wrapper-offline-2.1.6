@@ -6,13 +6,13 @@
 
 Wrapper: Offline is a program designed to provide readily obtainable, irrevocable access to GoAnimate's retired assets in the modern era. It achieves this by replicating the original API and asset servers entirely on the computers of the users, while providing a simplistic frontend to interact with them. This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
-This is an unofficial fork of GTAManRCRX's "2.1.4" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.4, and reverse some controversial changes made by them.
+This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.4, and reverse some controversial changes made by them.
 
 ## Changes
 ### Changes made since "2.1.4"
  - Restore the "Mosaic" props that were controversially removed by GTAMaxRCRX (commit [3110e61](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/3110e615c59c82db682615b7869d8a3f4d284b30)).
  - Add missing stock characters (commit [40acf38](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/40acf38c8ec87984b261527e48c7c707bb113e24))
- - Revert changes to capitalization made by GTAManRCRX.
+ - Revert changes to capitalization made by GTAManRCR.
 ### Dependencies
 - Rewrite code dependent on Sharp to use FFmpeg instead, allowing W:O to natively run on Windows 7.
 - Separated temp and userdata from the user's roaming AppData directory. User data is now stored in W:O's reaource directory.
@@ -73,14 +73,14 @@ npm run package
 If you have changes to the code that you want included, you can create a pull request [here](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/pulls)
 
 ### A Disclosure On GoAnimate-Styled Rant Videos
-Unlike GTAManRCRX's version 2.1.4, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
+Unlike GTAManRCR's version 2.1.4, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
 
 ### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
 FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some differences from MIT. Flash Player (`resources/extensions`) and GoAnimate's original assets (`resources/static`) are proprietary and do not grant you these rights, but if they did, this project wouldn't need to exist
 
 ### To-Do
-- [x] Restore the "Mosaic" props that GTAManRCRX removed
+- [x] Restore the "Mosaic" props that GTAManRCR removed
 - [ ] Add the GitHub Workflow action script
   - [ ] Create the Windows 32-bit (x86) build of the version
   - [ ] Create the Mac build of the version
