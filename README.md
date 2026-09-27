@@ -44,6 +44,9 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 ## Downloads / Installation
 **WARNING:** Wrapper: Offline 2.1.6 will make modifications to its AppData directory that will likely cause any custom characters or video projects to be deleted. Be sure to export these (or copy the directory to another location on your disk) before running 2.1.6.
 
+### DLC
+* [VoiceForge voices (by bro946)](https://youtu.be/I1PDhKqD3jw) (please use the "FOR CUSTOM VERSIONS 2.1.4 AND 2.1.6" folder)
+
 To install Wrapper: Offline, you need to download it through the [releases page](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/releases/)
 
 ## Updates & Support
