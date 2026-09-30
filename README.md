@@ -1,6 +1,7 @@
 <div class="head" align="center">
   <h1>Wrapper: Offline ("2.1.6")</h1>
   <p><b>This project is not affiliated with or endorsed by GoAnimate Inc. or its product Vyond. Wrapper: Offline is a decentralized open-source initiative developed exclusively for archival purposes. It operates on a non-profit basis and does not accept any form of donations</b></p>
+<p><b>Remember, Animator fan didn't created this version</b></p>
   <br>
 </div>
 
