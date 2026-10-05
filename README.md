@@ -48,7 +48,6 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 To install Wrapper: Offline, you need to download it through the [releases page](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/releases/)
 
 ### DLC
-* [VoiceForge voices (by bro946)](https://youtu.be/I1PDhKqD3jw) (please use the "FOR CUSTOM VERSIONS 2.1.4 AND 2.1.6" folder)
 * [The Caillou Crusade Character Pack (by BᖱGƉӔWGΊ3)](https://www.youtube.com/post/Ugkxu2dUpj44-Ksu2n5_leW52LHXmUyTmh6q) (this pack was made for 2.1.4, but it should work on 2.1.6)
 
 ## Updates & Support
