@@ -49,6 +49,7 @@ To install Wrapper: Offline, you need to download it through the [releases page]
 
 ### DLC
 * [The Caillou Crusade Character Pack (by BᖱGƉӔWGΊ3)](https://www.youtube.com/post/Ugkxu2dUpj44-Ksu2n5_leW52LHXmUyTmh6q) (this pack was made for 2.1.4, but it should work on 2.1.6)
+* [Extended Comedy World Background Pack (by Animator Fan)](https://www.youtube.com/post/UgkxCmdxx4lyB28nbIGHqcN9HP97n_hWt0jm) (remember, there might be bugs in this pack)
 
 ## Updates & Support
 For support, the first thing you should do is to [read through the Wrapper: Offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki), as it most likely has what you want to know.    
