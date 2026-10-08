@@ -43,7 +43,7 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 - Locked video player aspect ratio: Disabled window resizing for the player to prevent Flash distortion and maintain pixel-perfect rendering, as Flash is not a responsive technology
 
 ## Downloads / Installation
-**WARNING:** Wrapper: Offline 2.1.6 will make modifications to its AppData directory that will likely cause any custom characters or video projects to be deleted. Be sure to export these (or copy the directory to another location on your disk) before running 2.1.6.
+**WARNING:** Wrapper: Offline 2.1.6 will make modifications to its official counterpart's (2.1.0 and over) AppData directory that will likely cause any custom characters or video projects to be deleted. Be sure to export these (or copy the directory to another location on your disk) before running 2.1.6.
 
 To install Wrapper: Offline, you need to download it through the [releases page](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/releases/)
 
@@ -92,6 +92,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
   - [ ] Create the Mac build of the version
   - [ ] Create the Linux build of the version
 - [ ] Backport the VoiceForge login feature from 2.2.0 back to 2.1.6 (in case you have a VoiceForge subscription)
+- [ ] Fix the issue where this version makes modifications to its official counterpart's (2.1.0 and over) AppData directory that will likely cause any custom characters or video projects to be deleted.
 
 ### Credits
 | Contributor | Contribution |
