@@ -76,7 +76,7 @@ npm run package
 ```
 
 ### Contributions
-If you have changes to the code that you want included, you can create a pull request [here](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/pulls)
+If you have changes to the code that you want included (like bug fixes, voice API changes, and any others), you can create a pull request [here](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/pulls)
 
 ### A Disclosure On GoAnimate-Styled Rant Videos
 Unlike GTAManRCR's version 2.1.4, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
