@@ -37,7 +37,7 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 - Dark mode is now the default
 - Removed the annoying flickering glitch of the sidebar
 - Centered video titles, IDs, and dates
-- For aesthetics, the character creator and browser are centered
+- For aesthetics, the character creator and browser are centered (the character creator in LVM is not fixed yet, so don't use it inside LVM for now; it is also affected in the 2.1.4 fork)
 ### User experience:
 - Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
 - Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
