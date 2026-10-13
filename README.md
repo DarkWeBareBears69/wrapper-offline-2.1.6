@@ -7,10 +7,10 @@
 
 Wrapper: Offline is a program designed to provide readily obtainable, irrevocable access to GoAnimate's retired assets in the modern era. It achieves this by replicating the original API and asset servers entirely on the computers of the users, while providing a simplistic frontend to interact with them. This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
-This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.4, and reverse some controversial changes made by them.
+This is an unofficial fork of GTAManRCR's "2.1.1" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.1, and reverse some controversial changes made by them.
 
 ## Changes
-### Changes made since "2.1.4"
+### Changes made since "2.1.1"
  - Restore the "Mosaic" props that were controversially removed by GTAMaxRCR (commit [3110e61](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/3110e615c59c82db682615b7869d8a3f4d284b30)).
  - Add missing stock characters (commit [40acf38](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/40acf38c8ec87984b261527e48c7c707bb113e24))
  - Revert changes to capitalization made by GTAManRCR.
@@ -37,7 +37,7 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 - Dark mode is now the default
 - Removed the annoying flickering glitch of the sidebar
 - Centered video titles, IDs, and dates
-- For aesthetics, the character creator and browser are centered (the character creator in LVM is not fixed yet, so don't use it inside LVM for now; it is also affected in the 2.1.4 fork)
+- For aesthetics, the character creator and browser are centered (the character creator in LVM is not fixed yet, so don't use it inside LVM for now; it is also affected in the 2.1.1 fork)
 ### User experience:
 - Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
 - Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
@@ -49,7 +49,7 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 To install Wrapper: Offline, you need to download it through the [releases page](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/releases/)
 
 ### DLC
-* [The Caillou Crusade Character Pack (by BᖱGƉӔWGΊ3)](https://www.youtube.com/post/Ugkxu2dUpj44-Ksu2n5_leW52LHXmUyTmh6q) (this pack was made for 2.1.4, but it should work on 2.1.6)
+* [The Caillou Crusade Character Pack (by BᖱGƉӔWGΊ3)](https://www.youtube.com/post/Ugkxu2dUpj44-Ksu2n5_leW52LHXmUyTmh6q) (this pack was made for 2.1.1, but it should work on 2.1.6)
 * [Extended Comedy World Background Pack (by Animator Fan)](https://www.youtube.com/post/UgkxCmdxx4lyB28nbIGHqcN9HP97n_hWt0jm) (remember, there might be bugs in this pack)
 
 ## Updates & Support
@@ -80,7 +80,7 @@ npm run package
 If you have changes to the code that you want included (like bug fixes, voice API changes, and any others), you can create a pull request [here](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/pulls)
 
 ### A Disclosure On GoAnimate-Styled Rant Videos
-Unlike GTAManRCR's version 2.1.4, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
+Unlike GTAManRCR's version 2.1.1, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
 
 ### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
@@ -99,7 +99,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 | Contributor | Contribution |
 | --------- | ------- |
 | Benson | The original developer of Wrapper: Offline |
-| GTAManRCR | the creator of the "2.1.4" fork |
+| GTAManRCR | the creator of the "2.1.1" fork |
 | DanielBitten | Upgraded TTS endpoints and voices, the creator of the "2.1.5" fork |
 | DarkWeBareBears69 | the creator of this fork |
 | It'sJay | Saving every asset |
