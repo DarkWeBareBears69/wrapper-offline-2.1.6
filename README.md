@@ -7,10 +7,10 @@
 
 Wrapper: Offline is a program designed to provide readily obtainable, irrevocable access to GoAnimate's retired assets in the modern era. It achieves this by replicating the original API and asset servers entirely on the computers of the users, while providing a simplistic frontend to interact with them. This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
-This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.4, and reverse some controversial changes made by them.
+This is an unofficial fork of GTAManRCR's "2.1.1" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.1, and reverse some controversial changes made by them.
 
 ## Changes
-### Changes made since "2.1.4"
+### Changes made since "2.1.1"
  - Restore the "Mosaic" props that were controversially removed by GTAMaxRCR (commit [3110e61](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/3110e615c59c82db682615b7869d8a3f4d284b30)).
  - Add missing stock characters (commit [40acf38](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/commit/40acf38c8ec87984b261527e48c7c707bb113e24))
  - Revert changes to capitalization made by GTAManRCR.
@@ -37,19 +37,20 @@ This is an unofficial fork of GTAManRCR's "2.1.4" release (itself a fork of the 
 - Dark mode is now the default
 - Removed the annoying flickering glitch of the sidebar
 - Centered video titles, IDs, and dates
+- For aesthetics, the character creator and browser are centered
 ### User experience:
 - Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
 - Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
 - Locked video player aspect ratio: Disabled window resizing for the player to prevent Flash distortion and maintain pixel-perfect rendering, as Flash is not a responsive technology
 
 ## Downloads / Installation
-**WARNING:** Wrapper: Offline 2.1.6 will make modifications to its AppData directory that will likely cause any custom characters or video projects to be deleted. Be sure to export these (or copy the directory to another location on your disk) before running 2.1.6.
+**WARNING:** Wrapper: Offline 2.1.6 will make modifications to its official counterpart's (2.1.0 and over) AppData directory that will likely cause any custom characters or video projects to be deleted. Be sure to export these (or copy the directory to another location on your disk) before running 2.1.6.
 
 To install Wrapper: Offline, you need to download it through the [releases page](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/releases/)
 
 ### DLC
-* [VoiceForge voices (by bro946)](https://youtu.be/I1PDhKqD3jw) (please use the "FOR CUSTOM VERSIONS 2.1.4 AND 2.1.6" folder)
-* [The Caillou Crusade Character Pack (by BᖱGƉӔWGΊ3)](https://www.youtube.com/post/Ugkxu2dUpj44-Ksu2n5_leW52LHXmUyTmh6q) (this pack was made for 2.1.4, but it should work on 2.1.6)
+* [The Caillou Crusade Character Pack (by BᖱGƉӔWGΊ3)](https://www.youtube.com/post/Ugkxu2dUpj44-Ksu2n5_leW52LHXmUyTmh6q) (this pack was made for 2.1.1, but it should work on 2.1.6)
+* [Extended Comedy World Background Pack (by Animator Fan)](https://www.youtube.com/post/UgkxCmdxx4lyB28nbIGHqcN9HP97n_hWt0jm) (remember, there might be bugs in this pack)
 
 ## Updates & Support
 For support, the first thing you should do is to [read through the Wrapper: Offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki), as it most likely has what you want to know.    
@@ -76,10 +77,10 @@ npm run package
 ```
 
 ### Contributions
-If you have changes to the code that you want included, you can create a pull request [here](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/pulls)
+If you have changes to the code that you want included (like bug fixes, voice API changes, and any others), you can create a pull request [here](https://github.com/DarkWeBareBears69/wrapper-offline-2.1.6/pulls)
 
 ### A Disclosure On GoAnimate-Styled Rant Videos
-Unlike GTAManRCR's version 2.1.4, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
+Unlike GTAManRCR's version 2.1.1, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
 
 ### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
@@ -91,13 +92,14 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
   - [ ] Create the Windows 32-bit (x86) build of the version
   - [ ] Create the Mac build of the version
   - [ ] Create the Linux build of the version
-- [ ] Backport the VoiceForge login feature from 2.2.0 back to 2.1.6
+- [ ] Backport the VoiceForge login feature from 2.2.0 back to 2.1.6 (in case you have a VoiceForge subscription)
+- [ ] Fix the issue where this version makes modifications to its official counterpart's (2.1.0 and over) AppData directory that will likely cause any custom characters or video projects to be deleted.
 
 ### Credits
 | Contributor | Contribution |
 | --------- | ------- |
 | Benson | The original developer of Wrapper: Offline |
-| GTAManRCR | the creator of the "2.1.4" fork |
+| GTAManRCR | the creator of the "2.1.1" fork |
 | DanielBitten | Upgraded TTS endpoints and voices, the creator of the "2.1.5" fork |
 | DarkWeBareBears69 | the creator of this fork |
 | It'sJay | Saving every asset |

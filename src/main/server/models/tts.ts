@@ -309,18 +309,16 @@ export default function processVoice(
 					break;
 				}
 				case "polly": {
-					const query = new URLSearchParams({
+					const q = new URLSearchParams({
 						voice: voice.arg,
 						text: text,
 					}).toString();
 					const req = https.get(
 						{
 							hostname: "streamlabs.com",
-							path: `/polly/speak?${query}`,
+							path: `/polly/speak?${q}`,
 							method: "POST",
-							headers: {
-								"referer": "https://streamlabs.com"
-							}
+							headers: {"referer": "https://streamlabs.com"}
 						}, (r) => {
 							let body = "";
 							r.on("data", (d) => body += d);
@@ -373,29 +371,8 @@ export default function processVoice(
 					req.end(body);
 					break;
 				}
-				case "pollypluswavenet": {
-					const q = new URLSearchParams({
-						voice: voice.arg,
-						text: text,
-					}).toString();
-					const req = https.get(`https://api.textreader.pro/tts?${q}`, (res) => {
-						if (res.statusCode !== 200) {
-							console.error(`Pollypluswavenet error: ${res.statusCode}`);
-							return reject("Service unavailable");
-						}
-						resolve(res);
-					});
-					req.on("error", (err) => {
-						console.error("Network error:", err.message);
-						reject(err);
-					});
-					req.setTimeout(10000, () => {req.destroy();
-						reject("Request timed out");
-					});
-					break;
-				}
 				case "readloud": {
-				  const body = new URLSearchParams({ but1: text, butS: 0, butP: 0, butPauses: 0, butt0: "Submit" }).toString();
+					const body = new URLSearchParams({ but1: text, butS: 0, butP: 0, butPauses: 0, butt0: "Submit" }).toString();
 					const headers = { "User-Agent": "Mozilla/5.0", Referer: "https://readloud.net", Origin: "https://readloud.net" };
 					const req = https.request({
 						hostname: "readloud.net", 
@@ -407,7 +384,7 @@ export default function processVoice(
 						let html = "";
 						r.on("data", (b) => html += b);
 						r.on("end", () => {
-						  const beg = html.indexOf("/tmp/");
+							const beg = html.indexOf("/tmp/");
 							if (beg === -1) return reject("MP3 link not found");
 							const sub = html.substring(beg, html.indexOf("mp3", beg) + 3);
 							https.get({ hostname: "readloud.net", path: sub, headers }, (r2) => {
@@ -415,7 +392,7 @@ export default function processVoice(
 								resolve(r2);
 							}).on("error", reject);
 						});
-					  }).on("error", reject);
+					}).on("error", reject);
 					req.end(body);
 					break;
 				}
@@ -458,7 +435,7 @@ export default function processVoice(
 					}).on("error", (e) => reject(`Network error: ${e.message}`));
 					break;
 				}
-				case "bytedance": {
+				case "tiktok": {
 					text = text.slice(0, 199).trim();
 					const params = new URLSearchParams({
 						aid: "1233",
