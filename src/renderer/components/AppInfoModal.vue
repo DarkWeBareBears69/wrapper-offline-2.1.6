@@ -53,16 +53,16 @@ onUnmounted(() => {
 <template>
 	<div class="app_info_modal">
 		<Popup class="app_info_popup">
-			<template #small-heading>Wrapper offline</template>
+			<template #small-heading>Wrapper Offline</template>
 			<template #large-heading>About</template>
 
 			<div class="about">
 				<img src="/img/logo_icon.svg"/>
 				<div>
-					<h1>Wrapper offline</h1>
-					<h3>Version {{ wrapperVer }}</h3>
+					<h1>Wrapper Offline</h1>
+					<h3>{{ wrapperVer }}</h3>
 
-					<p>All original code written for Wrapper offline is<br/>
+					<p>All original code written for Wrapper Offline is<br/>
 						distributed under the MIT license</p>
 					
 					<div class="links">
