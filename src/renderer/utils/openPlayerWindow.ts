@@ -10,7 +10,7 @@ export default async function openPlayerWindow(movieId: string) {
     if (isWindows) { width += 4; height += 27; }
     const left = Math.floor((screen.availWidth - width) / 2);
     const top = Math.floor((screen.availHeight - height) / 2);
-    let windowTitle = "Video Player - Wrapper Offline";
+    let windowTitle = "Video player - Wrapper offline";
         const res = await fetch(`${apiServer}/api/movie/get_info?id=${encodeURIComponent(movieId)}`);
         if (res.ok) {
             const data = await res.json();
