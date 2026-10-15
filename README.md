@@ -38,7 +38,7 @@ This is an unofficial fork of GTAManRCR's "2.1.1" release (itself a fork of the 
 - Removed the annoying flickering glitch of the sidebar
 - Centered video titles, IDs, and dates
 - For aesthetics, the character creator and browser are centered
-- The video player now displays the created movie's title (the last feature that I have ported from "2.1.1" to this version since GTARCRMax doesn't want to have his ideas stolen)
+- The video player now displays the created movie's title (the last feature that I have ported from "2.1.1" to this version since GTAManRCR doesn't want to have his ideas stolen)
 ### User experience:
 - Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
 - Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
