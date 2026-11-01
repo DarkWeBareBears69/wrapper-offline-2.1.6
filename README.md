@@ -17,7 +17,7 @@ This is an unofficial fork of GTAManRCR's "2.1.1" release (itself a fork of the 
  - Add TheUnknownKoala4545 stock character in the W:O credits
 ### Dependencies
 - Rewrite code dependent on Sharp to use FFmpeg instead, allowing W:O to natively run on Windows 7.
-- Separated temp and userdata from the user's roaming AppData directory. User data is now stored in W:O's reaource directory.
+- Separated temp and userdata from the user's roaming AppData directory. User data is now stored in W:O's resource directory.
 - Nodezip was replaced with the more stable AdmZip to fix corruption issues.
 - The build system can now automatically move the assets into the correct directory, set the icon for the W:O executable, and can package it for all supported platforms in a single run.
 ### Bug fixes
