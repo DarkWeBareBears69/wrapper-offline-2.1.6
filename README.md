@@ -96,6 +96,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 - [ ] Backport the VoiceForge login feature from 2.2.0 back to 2.1.6 (in case you have a VoiceForge subscription)
 - [ ] Fix the issue where this version makes modifications to its official counterpart's (2.1.0 and over) AppData directory that will likely cause any custom characters or video projects to be deleted.
 - [ ] Update most of the dependencies to their latest versions or their LTS versions (except for Electron and Electron Packager, of course)
+- [ ] Add the custom font upload feature
 
 ### Credits
 | Contributor | Contribution |
