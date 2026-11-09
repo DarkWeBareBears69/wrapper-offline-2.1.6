@@ -7,7 +7,7 @@
 
 Wrapper: Offline is a program designed to provide readily obtainable, irrevocable access to GoAnimate's retired assets in the modern era. It achieves this by replicating the original API and asset servers entirely on the computers of the users, while providing a simplistic frontend to interact with them. This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
-This is an unofficial fork of GTAManRCR's "2.1.1" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.1, and reverse some controversial changes made by them.
+This is an unofficial fork of GTAManRCR's "2.1.1" release (itself a fork of the official release of W:O 2.1.0, created to fix serious long-standing bugs, consolidate dependencies, and improve portability), created to make additional improvements to 2.1.1 and reverse some controversial changes made by them.
 
 ## Changes
 ### Changes made since "2.1.1"
