@@ -89,6 +89,7 @@ FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some 
 
 ### To-Do
 - [x] Restore the "Mosaic" props that GTAManRCR removed
+  - [ ] Fix the "Mosaic" props not displaying on each theme except for Comedy World
 - [ ] Add the GitHub Workflow action script
   - [ ] Create the Windows 32-bit (x86) build of the version
   - [ ] Create the Mac build of the version
